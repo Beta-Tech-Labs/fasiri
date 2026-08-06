@@ -89,20 +89,6 @@ If all fail          ->  ProviderError raised
 
 ---
 
-## API base URL
-
-```
-https://api.fasiri-ai.com
-```
-
-Interactive docs (Swagger UI):
-
-```
-https://api.fasiri-ai.com/docs
-```
-
----
-
 ## Next steps
 
 - [Installation](getting-started/installation.md)
