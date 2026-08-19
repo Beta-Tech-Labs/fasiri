@@ -23,7 +23,7 @@
       
       
       <link rel="icon" href="../assets/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -31,7 +31,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -2562,22 +2562,22 @@
 <p>Adding a language requires changes in two places:</p>
 <h3 id="1-register-the-language-in-appcoreregistrypy">1. Register the language in <code>app/core/registry.py</code><a class="headerlink" href="#1-register-the-language-in-appcoreregistrypy" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c1"># In LANGUAGE_REGISTRY dict</span>
-<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="s2">&quot;xx&quot;</span><span class="p">:</span> <span class="n">LanguageInfo</span><span class="p">(</span>
-<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>    <span class="s2">&quot;xx&quot;</span><span class="p">,</span>              <span class="c1"># Fasiri code (BCP-47 where possible)</span>
-<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>    <span class="s2">&quot;Language Name&quot;</span><span class="p">,</span>   <span class="c1"># English name</span>
-<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>    <span class="s2">&quot;Native Name&quot;</span><span class="p">,</span>     <span class="c1"># Name in the language itself</span>
-<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>    <span class="s2">&quot;Region&quot;</span><span class="p">,</span>          <span class="c1"># e.g. &quot;West Africa&quot;</span>
-<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>    <span class="s2">&quot;Family&quot;</span><span class="p">,</span>          <span class="c1"># e.g. &quot;Niger-Congo&quot;</span>
-<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>    <span class="n">sunbird_code</span><span class="o">=</span><span class="s2">&quot;xx&quot;</span><span class="p">,</span> <span class="c1"># Sunbird&#39;s code (if different)</span>
-<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>    <span class="n">nllb_code</span><span class="o">=</span><span class="s2">&quot;xx_Latn&quot;</span><span class="p">,</span> <span class="c1"># NLLB flores200 code</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="s2">"xx"</span><span class="p">:</span> <span class="n">LanguageInfo</span><span class="p">(</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>    <span class="s2">"xx"</span><span class="p">,</span>              <span class="c1"># Fasiri code (BCP-47 where possible)</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>    <span class="s2">"Language Name"</span><span class="p">,</span>   <span class="c1"># English name</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>    <span class="s2">"Native Name"</span><span class="p">,</span>     <span class="c1"># Name in the language itself</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>    <span class="s2">"Region"</span><span class="p">,</span>          <span class="c1"># e.g. "West Africa"</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>    <span class="s2">"Family"</span><span class="p">,</span>          <span class="c1"># e.g. "Niger-Congo"</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>    <span class="n">sunbird_code</span><span class="o">=</span><span class="s2">"xx"</span><span class="p">,</span> <span class="c1"># Sunbird's code (if different)</span>
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>    <span class="n">nllb_code</span><span class="o">=</span><span class="s2">"xx_Latn"</span><span class="p">,</span> <span class="c1"># NLLB flores200 code</span>
 <a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="p">),</span>
 </code></pre></div>
 <h3 id="2-add-a-model-entry-in-model_registry">2. Add a model entry in <code>MODEL_REGISTRY</code><a class="headerlink" href="#2-add-a-model-entry-in-model_registry" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">ModelEntry</span><span class="p">(</span>
-<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>    <span class="n">model_id</span><span class="o">=</span><span class="s2">&quot;Helsinki-NLP/opus-mt-en-xx&quot;</span><span class="p">,</span>
-<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>    <span class="n">provider</span><span class="o">=</span><span class="s2">&quot;huggingface&quot;</span><span class="p">,</span>
-<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>    <span class="n">source_langs</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;en&quot;</span><span class="p">],</span>
-<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>    <span class="n">target_langs</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;xx&quot;</span><span class="p">],</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>    <span class="n">model_id</span><span class="o">=</span><span class="s2">"Helsinki-NLP/opus-mt-en-xx"</span><span class="p">,</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>    <span class="n">provider</span><span class="o">=</span><span class="s2">"huggingface"</span><span class="p">,</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>    <span class="n">source_langs</span><span class="o">=</span><span class="p">[</span><span class="s2">"en"</span><span class="p">],</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>    <span class="n">target_langs</span><span class="o">=</span><span class="p">[</span><span class="s2">"xx"</span><span class="p">],</span>
 <a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>    <span class="n">quality_score</span><span class="o">=</span><span class="mf">0.75</span><span class="p">,</span>    <span class="c1"># estimate from BLEU scores if available</span>
 <a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>    <span class="n">avg_latency_ms</span><span class="o">=</span><span class="mi">1300</span><span class="p">,</span>
 <a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="p">),</span>
@@ -2701,7 +2701,7 @@
       <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.expand", "navigation.indexes", "search.highlight", "search.share", "search.suggest", "content.code.copy", "content.code.annotate", "content.tabs.link"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>

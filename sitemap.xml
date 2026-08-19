@@ -2,182 +2,182 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://umarkhemis.github.io/fasiri/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/changelog/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/contributing/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/api-reference/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/api-reference/auth/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/api-reference/batch/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/api-reference/errors/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/api-reference/languages/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/api-reference/stt/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/api-reference/translation/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/api-reference/tts/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/examples/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/examples/chatbot/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/examples/django/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/examples/document-translation/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/examples/fastapi/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/examples/transcribe-audio/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/getting-started/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/getting-started/authentication/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/getting-started/installation/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/getting-started/languages/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/getting-started/quickstart/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/guides/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/guides/batch-at-scale/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/guides/batch/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/guides/direct-mode/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/guides/error-handling/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/guides/errors/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/guides/multilingual-app/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/guides/provider-routing/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/guides/rate-limits/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/guides/speech-workflows/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/guides/translation/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/includes/abbreviations/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/providers/overview/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/sdk-reference/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/sdk-reference/async/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/sdk-reference/batch/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/sdk-reference/client/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/sdk-reference/exceptions/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/sdk-reference/speech/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/sdk-reference/translate/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/sdk-reference/types/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/self-hosting/docker/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
     <url>
          <loc>https://umarkhemis.github.io/fasiri/self-hosting/env/</loc>
-         <lastmod>2026-06-07</lastmod>
+         <lastmod>2026-08-19</lastmod>
     </url>
 </urlset>
